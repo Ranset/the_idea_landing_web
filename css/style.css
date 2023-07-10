@@ -23,6 +23,14 @@
     max-height: 67px;
 }
 
+#videoModal {
+    display: none;
+}
+
+.btn-play {
+    display: none;
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -225,6 +233,7 @@
     outline: none !important;
     padding: 18px 20px 20px 28px;
     background: var(--primary);
+    display: none;
 }
 
 .btn-play:before {
