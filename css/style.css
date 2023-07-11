@@ -37,7 +37,7 @@
 }
 
 #contacto {
-    margin-top: -30px;
+    /* margin-top: -30px; */
 }
 
 .form-line {
@@ -48,6 +48,55 @@ div.header-large {
     margin: 0 -23px;
     padding: -14.5em 52px;
 }
+
+@media (min-width: 1400px) {
+    div#contacto {
+        height: 540px;
+        overflow: hidden;
+    }
+    }
+    
+    @media (max-width: 1399px) {
+    div#contacto {
+        height: 540px;
+        overflow: hidden;
+    }
+    }
+    
+    @media (max-width: 1199px) {
+    div#contacto {
+        height: 785px;
+        overflow: hidden;
+    }
+    }
+    
+    @media (max-width: 988px) {
+    div#contacto {
+        height: 540px;
+        overflow: hidden;
+    }
+    }
+    
+    @media (max-width: 767px) {
+    div#contacto {
+        height: 540px;
+        overflow: hidden;
+    }
+    }
+    
+    @media (max-width: 560px) {
+    div#contacto {
+        height: 584px;
+        overflow: hidden;
+    }
+    }
+    
+    @media (max-width: 528px) {
+        div#contacto {
+            height: 787px;
+            overflow: hidden;
+        }
+    }
 
 /*** Spinner ****/
 #spinner {
